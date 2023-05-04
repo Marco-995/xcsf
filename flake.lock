@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "dSFMTSource": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1604967407,
+        "narHash": "sha256-ziQgCyHl1LWT2s4t/9jLfWkS/7ndWnF9KmYM6/x3a/c=",
+        "owner": "MersenneTwister-Lab",
+        "repo": "dSFMT",
+        "rev": "6929b76f2ab07e6302f8daece28045d5bec6ff5c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "MersenneTwister-Lab",
+        "repo": "dSFMT",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1678380223,
+        "narHash": "sha256-HUxnK38iqrX84QdQxbFcosRKV3/koj1Zzp5b5aP4lIo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1e2590679d0ed2cee2736e8b80373178d085d263",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1e2590679d0ed2cee2736e8b80373178d085d263",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dSFMTSource": "dSFMTSource",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
