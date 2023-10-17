@@ -1,7 +1,5 @@
 {
-  # Copied from github:dpaetzel/nixos-config's inputs.nixpkgs.
-  inputs.nixpkgs.url =
-      "github:NixOS/nixpkgs/1e2590679d0ed2cee2736e8b80373178d085d263";
+  inputs.nixpkgs.url = "github:dpaetzel/nixpkgs/dpaetzel/nixos-config";
 
   inputs.dSFMTSource.url = "github:MersenneTwister-Lab/dSFMT";
   inputs.dSFMTSource.flake = false;
