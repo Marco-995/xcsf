@@ -8,7 +8,7 @@
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
-      python = pkgs.python310;
+      python = pkgs.python311;
 
       # XCSF's build process expects the dSFMT library source to be available.
       # Therefore, we make it available.
